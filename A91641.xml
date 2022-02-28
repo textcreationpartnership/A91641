@@ -1,0 +1,467 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A remonstrance to the people. Ordered by the high court of reason, that twelve thousand copies hereof be forthwith printed and published in the severall counties of this kingdome respectively.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1649</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 23 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A91641</idno>
+            <idno type="STC">Wing R1030</idno>
+            <idno type="STC">Thomason E568_18</idno>
+            <idno type="STC">ESTC R203386</idno>
+            <idno type="EEBO-CITATION">99863354</idno>
+            <idno type="PROQUEST">99863354</idno>
+            <idno type="VID">165315</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A91641)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 165315)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 87:E568[18])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A remonstrance to the people. Ordered by the high court of reason, that twelve thousand copies hereof be forthwith printed and published in the severall counties of this kingdome respectively.</title>
+               </titleStmt>
+               <extent>[2], 12, [2] p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>Printed in the yeare 1649.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>The last leaf is blank.</note>
+                  <note>Annotation on Thomason copy: "Aug: 9th".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Great Britain --  Politics and government --  1649-1660 --  Early works to 1800.</term>
+               <term>Great Britain --  History --  Commonwealth and Protectorate, 1649-1660 --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-04</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2010-04</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:165315:1" rendition="simple:additions"/>
+            <p>
+               <hi>A</hi> REMONSTRANCE <hi>TO</hi> THE PEOPLE.</p>
+            <q>
+               <bibl>
+                  <hi>Pſal. 7.9.</hi>
+               </bibl>
+               <p>Oh let the wickedneſſe of the Wicked come to an end, but
+eſtabliſh the Juſt.</p>
+            </q>
+            <q>
+               <bibl>
+                  <hi>Job 34.30.</hi>
+               </bibl>
+               <p>That the Hypocrite reigne not, leſt the People be
+inſnared.</p>
+            </q>
+            <q>
+               <bibl>
+                  <hi>Pſal. 21.7.</hi>
+               </bibl>
+               <p>For the King truſteth in the Lord, and through the mercy of the
+moſt high he ſhall not be moved.</p>
+            </q>
+            <p>ORdered by the High Court of Reaſon, that twelve thouſand
+Copies hereof be forthwith printed and publiſhed in the ſeverall Counties
+of this Kingdome reſpectively.</p>
+            <p>LONDON. <hi>Printed in the Yeare</hi> 1649.</p>
+         </div>
+      </front>
+      <body>
+         <div type="remonstrance">
+            <pb facs="tcp:165315:2"/>
+            <pb n="1" facs="tcp:165315:2"/>
+            <head>
+               <hi>A</hi> REMONSTRANCE TO THE PEOPLE.</head>
+            <opener>
+               <salute>Royall and Loyall Fellow-ſubjects,</salute>
+            </opener>
+            <p>WHat honeſt Heart doth not bleed to ſee this (lately glorious)
+Nation thus lie gaſping? who can refrain from utterance, who con<g ref="char:EOLhyphen"/>ceives he
+thinks of any thing w<hi rend="sup">ch</hi> may advance the reuni<g ref="char:EOLhyphen"/>ting of our diſtracted
+obedience? Suffer me alſo there<g ref="char:EOLhyphen"/>fore to diſcloſe my heart, in this ſad
+Caſe, wherein every good Man hath an Intereſt, though the Great Ones have
+the guilt: the braines of a wiſe Man, and the bowels of a common Father, met
+together in one counſell to you, <hi>Feare</hi> GOD, <hi>and the</hi> KING;
+<hi>and meddle not with them that are given to change;</hi> here is our warrant
+(beyond a Gypſies knot, or a dow-bak'd Ordinance) we may be
+<hi>Royaliſts,</hi> and Religious too. But the deſtruction that dogs the
+contempt of this advice, you or your Children will live to ſee and ſuffer;
+in the deſolations of your Countrey which is ready to be laid waſte, the
+diſ<g ref="char:EOLhyphen"/>ſolution of its Government, which even at this inſtant tottereth, and
+in the miſeries and judgments upon your Poſterity which are ineffable &amp;
+worthy of God; to the horrid production of theſe calamities you are all
+pro<g ref="char:EOLhyphen"/>miſcuouſly made acceſſary; impeached by a Confede<g ref="char:EOLhyphen"/>racy that would
+be thought meek in Murther, that uſurp <pb n="2" facs="tcp:165315:3"/>a Saintſhip in
+Sacriledge, and labour to skreen them<g ref="char:EOLhyphen"/>ſelves from obloquy, by an imputation
+of their villanies to your conſent, and abetting. If we demand, why the
+laſt Parliament was called? They anſwer, to eaſe the Grievances of the
+People: If we enquire, who chaſed the KING from His Parliament? They muſt
+ſtill an<g ref="char:EOLhyphen"/>ſwer, the People: If we aske, who purſued Him? in<g ref="char:EOLhyphen"/>ſnared Him?
+Impriſoned Him? who called for Juſtice againſt Him? who Butcher'd Him?
+Eccho is the ſame, the People. Thus theſe Anachims of Hell, theſe
+Zan<g ref="char:EOLhyphen"/>zummins for the Devill, who flatter themſelves under Gods vengeance, and
+whoſe tranſgreſſions are Regiſtred to all eternity, in the
+ſucceſſe of their impieties, practice upon your ſtupified
+coldneſſe, and take advantage through your feares to ſcandalize your
+Loyalty. If a tile onely from the houſe-top fall on your heads, you are
+ſenſible; and now the Kingdome is falling, are you ſtupid? ſhall other
+Mens Rebellions taint your Fami<g ref="char:EOLhyphen"/>lies, and poſe ſucceeding Generations to
+diſtinguiſh be<g ref="char:EOLhyphen"/>tween the Patriots of their Country, &amp; the Cut-throats
+who waded in their Princes bloud? <hi>A Remonſtrance to the People</hi> was
+the firſt invention to unſoder your obe<g ref="char:EOLhyphen"/>dience from your KING, that was
+<hi>Machiavel</hi>'s Maſter<g ref="char:EOLhyphen"/>piece, whereby they made you, and your Purſes
+the raſh Inſtruments of their ends; but never acquainted you with their
+bloudy and confuſed purpoſes: there they revealed a viſible deſigne,
+but concealed their capitall intentions. The <hi>Protestant Religion</hi>
+(which hath coſt you ſo much bloud and money, yet is now ſcoffed at under
+the reproach of Pulpit-doctrine) was in danger, <hi>Popery</hi> was comming in,
+the <hi>Government of the Church</hi> oppreſſed (tender Conſciences) and
+off went <hi>Canter<g ref="char:EOLhyphen"/>bury</hi>'s Head. <hi>Evill Counſellors laboured to
+ſubvert the <pb n="3" facs="tcp:165315:3"/>fundamentall Lawes</hi> (which they are now
+abrogating) <hi>and to introduce an Arbitrary Government</hi> (but they
+ſcorned to give this Honour to any but themſelves) and away flew
+<hi>Strafford</hi>'s Head. Thus they made a ſtrict profeſſion <hi>of
+Zeale, justice,</hi> and <hi>piety,</hi> and by a ſubtile in<g ref="char:EOLhyphen"/>verſion of the
+precept of God, they pretended to doe <hi>ſome good,</hi> that <hi>much
+evill</hi> might come thereof. In one place they lay before your eyes <hi>their
+Jealouſies, and Feares;</hi> when God knoweth the greateſt feares were,
+leſt thorow ſome cranny of their diſſimulation, you ſhould diſcerne
+their fraudulency. In another place, they are full of <hi>immodeſt
+bitterneſſe, peremptory preſum<g ref="char:EOLhyphen"/>ption, popular inſinuations,</hi> and
+<hi>a medley of ſlanders and flatteries,</hi> all tending to rumour and
+impreſſion in ſe<g ref="char:EOLhyphen"/>duceable Spirits. Thus at firſt they diſſembled
+them<g ref="char:EOLhyphen"/>ſelves into your unwary hearts, and now they force themſelves into
+your purſes, your houſes, your barnes, and your very beds; yet ſtill you
+are led by them like the Oxe that goeth to the ſlaughter, or the Foole that
+laugheth when he is carried to the whipping-poſt: but let me ſpeak as to
+wiſe Men, and judge ye what I ſay, imagine how glorious a compariſon is
+made both by God and man between thoſe that put a Kingdome out of frame, and
+thoſe that reduce it into order; think how diffuſive that Honour would be
+over all the Chriſtian world, and how firme &amp; permanent that comfort
+would prove to your Poſterity, if you return to your obedience,
+re-eſtabliſh your KING, and by a juſt retaliation leave theſe Traytours
+Paramount, theſe Crumeni-mulgent Rebels to catch cold at their backs, and
+periſh by them<g ref="char:EOLhyphen"/>ſelves: but becauſe <hi>duty</hi> taught and rightly
+underſtood, is a ſurer obligation than a blind cuſtome of obedience; as a
+ſeeing Man may tread ſurer by a light, than a blind <pb n="4" facs="tcp:165315:4"/>Man
+can by a Guide; I will in a compendious indea<g ref="char:EOLhyphen"/>vour dig to the ground of the
+Conſtitution of this King<g ref="char:EOLhyphen"/>dome, and ſhew you the very root of your
+obedience, that ſeeing the reaſon, and the reaſonableneſſe of it, you
+may alſo ſee your errors, and ſeeing them forſake them, and with them
+your perfidious or blind Guides.</p>
+            <p>And here I muſt declare my ſelfe to be ſuch an Ad<g ref="char:EOLhyphen"/>mirer of
+this Architecture, that whether it had the in<g ref="char:EOLhyphen"/>fluence of a ſupernaturall
+wiſdome, whether it were con<g ref="char:EOLhyphen"/>trived at once, or perfected by an act of time,
+I preſume no frame of Government in the whole world doth tran<g ref="char:EOLhyphen"/>ſcend it for
+exactneſſe of true policy; here is a regulated proviſion for the
+Soveraignty of the KING, and here is an ample dowry ſet apart for the People;
+here is the counterpoize of the Nobility to reſtraine Tyrannicall
+exceſſe, and here are alſo the Priviledges of the People to curbe the
+inſolence of the Barons. But, leſt I loſe my ſelfe in admiration, I
+proceed, We muſt beare regard to Government as an indiviſible beame of
+divine per<g ref="char:EOLhyphen"/>fection; and as is the Conſtitution of it, ſuch is the
+Or<g ref="char:EOLhyphen"/>dinance of God; and as is the Ordinance, ſuch ought to be the proportion
+of our Duty &amp; Subjection. The cuſto<g ref="char:EOLhyphen"/>mary diſtinctions of it are
+three-fold; In relation to the Meaſure of it, it is either Abſolute or
+Limited. In rela<g ref="char:EOLhyphen"/>tion to the Manner of it, it is either Supreme or
+Subor<g ref="char:EOLhyphen"/>dinate. And in reference to the Meanes of acquiring it, it is either
+Elective or Succeſſive: That of Preſcription and that alſo of
+Conqueſt is reducible to theſe.</p>
+            <p>Secondly, Government is either Nomotheticall, un<g ref="char:EOLhyphen"/>derſtanding by
+it the power of making new Lawes, and interpreting the old; or Gubernative,
+intending by it the power of putting thoſe Lawes in execution. This leads us
+on to the ſubject wherein this Supreme power <pb n="5" facs="tcp:165315:4"/>and truſt is
+reſident. And that againe according to the uſuall partition is three-fold:
+It is either in one, and then it is a Monarchy. Or in many (the beſt for
+Birth and abilities) then it is an Ariſtocracy. Or in the whole Community,
+and then it is a Democracy. That ours is a Monarchy Succeſſive, needs no
+proofe; but that it is Limited, I prove by theſe three Reaſons, (many more
+might be alleaged) Firſt, in all Ages beyond record, the Lawes and Cuſtomes
+of this Realme have been the rule and quadrature of Government. Liberties have
+been in<g ref="char:EOLhyphen"/>ſiſted on, and Grants thereof obtained. Limitations of Regall power
+are to be ſeen in a plentifull manner in <hi>Magna Charta,</hi> and <hi>the
+Petition of Right,</hi> and elſwhere. It is limited alſo in the
+Succeſſion; for, a KING cannot leave his Crowne to whom he pleaſeth, He
+cannot diſ<g ref="char:EOLhyphen"/>inherit his Sonne and Heire by any exorbitancy of will, by any
+violent emanations of love contracted by the merit or inſinuations of a
+Privado, or Favorite, nor for any diſpleaſure or indignation conceived
+againſt his Son, therefore the reaſon will hold <hi>à fortiori;</hi>
+if He can<g ref="char:EOLhyphen"/>not, His Subjects cannot; for, it is liquid, where they limited Him
+they alſo bounded themſelves, otherwiſe the Government were Elective, and
+not ſucceſſive: ap<g ref="char:EOLhyphen"/>ply the preſent practiſe of the Army, and their
+Hacknies at <hi>Weſtminſter</hi> to this rule, and let any ſober Man
+judge whether they be not the onely Subverters of the Funda<g ref="char:EOLhyphen"/>mentall Lawes.
+Secondly, I conceive it will follow as clearly from hence, that when they
+Martyr'd the KING (who died in the defence of theſe Lawes, and to protect you
+from that ſlavery into which they are about to en<g ref="char:EOLhyphen"/>tangle you) they
+diſſolved the Parliament for that Grant which did capacitate them to ſit
+<hi>durante beneplacito,</hi> could not be intended (neither is it pretended)
+to bind <pb n="6" facs="tcp:165315:5"/>His Succeſſours, for then they might ſit <hi>in
+infinitum,</hi> which alſo would deſtroy both the Succeſſion and the
+Monarchy, unleſſe they would have us Governed (as the Spaniard ſaith)
+<hi>par Rey de havas,</hi> by a King of beans, or a twelfnight King. Thus you
+ſee you are not bound in point of conſcience to obey them as a Parliament,
+or to regard their Declarations and Ordinances any more than Ballads. True it
+is, they have you under a Power, but ſuch an one as if Beaſts will
+challenge, rationall Men ſhould be aſhamed to ſubject themſelves unto;
+ſuch a power have Stotes and Polecats, and other ver<g ref="char:EOLhyphen"/>mine over young Chickens
+and other poultry: and is this a power for Engliſh Subjects to exerciſe
+over one another? Secondly, I prove it limited from the Oath that the Kings
+have taken at their Coronation, by which they ſweare <hi>to Governe by the
+Common and Statute Lawes of the Land;</hi> for, thoſe Lawes were not
+deviſed or made ſolely by them, but by the joynt concurrence of the o<g ref="char:EOLhyphen"/>ther
+two Eſtates in Parliament, therefore to be confined to that which is not
+meerly their own is limited. Laſtly, I prove it limited by the Conceſſion
+of CHRALES the I. (howle ye Murtherers when ye heare Him named) who neither
+wanted knowledge in the juſt latitude of His Power, nor juſtice to
+acknowledge the extent of it: the words are in His Declaration from
+<hi>Newmarket,</hi> where He ſaith, <hi>[The Law is the meaſure of His
+Power:]</hi> words truly worthy of a King, but doth it not open the ſluces of
+your eyes to remember what meaſure was returned to Him? well might He
+complaine, <hi>heu patior telis vul<g ref="char:EOLhyphen"/>nera facta meis!</hi> His mercy (by the
+obliquities of a Hel<g ref="char:EOLhyphen"/>bred rout) is curdled into the Kingdomes miſery, and the
+ſimplicity of His Grace made Him a ſacrifice to the ingratefull violence of
+ſeducing, and ſeduced People: <pb n="7" facs="tcp:165315:5"/>as the former Reaſons are
+cleare to ſhew that the Su<g ref="char:EOLhyphen"/>preme Authority of this Land is limited; ſo
+theſe fol<g ref="char:EOLhyphen"/>lowing Reaſons will alſo ſhew it to be mixed.</p>
+            <p>In the Anſwer of King CHAARLES the I. to the 19. Propoſitions,
+He there acknowledgeth, <hi>this Monarchy to be mixed with Ariſtocracy in the
+Houſe of Lords, and Democracy in the Houſe of Commons:</hi> From which
+words I reaſon thus, that Monarchy in which the three Eſtates are
+conſtituted, to the end that the power of One ſhould moderate and
+reſtraine from exceſſe the powers of the other, is mixed in the root and
+eſſence of it; but ſuch is this Monarchy, as appeareth by the KING'S
+ac<g ref="char:EOLhyphen"/>knowledgment, and alſo by the Lawes of the Land, therefore it is
+mixed.</p>
+            <p>Secondly, that Monarchy where the Legiſlative power is in all
+three (joyntly) is in the very radication of it compounded and mixed of thoſe
+three; for that is the height of power, to which the other parts are
+ſubordi<g ref="char:EOLhyphen"/>nate &amp; ſubſervient, ſo that where this reſideth in a
+mixed ſubject, that is in Three diſtinct concurrent Eſtates, the
+conſent, Votes, and concourſe of all moſt free, and none depending on the
+will of the other, that Monarchy in the very modell and frame of it is of a
+mixed conſtitu<g ref="char:EOLhyphen"/>tion; but ſuch is the ſtate of this Monatchy, as appeares
+by the former acknowledgement, therefore plainly it followes that it is
+mixed.</p>
+            <p>I ſhall briefly touch upon three things, wherein it is mixed,
+for further illuſtration of the proofes, and ſo conclude: Firſt, it is
+mixed and qualified in the No<g ref="char:EOLhyphen"/>motheticall power, ſo that an Act or an
+Ordinance can<g ref="char:EOLhyphen"/>not have the nature and forme of a Law of this Land, if it
+proceed from any One, or Two of theſe, without the poſitive concurrence of
+the Third. Secondly, it is mixed <pb n="8" facs="tcp:165315:6"/>in impoſition of Taxes on
+your Eſtates; the KING by His Prerogative cannot require Contributions not
+gran<g ref="char:EOLhyphen"/>ted to Him by Law; you may well wonder then how theſe ſquirting
+virginall Jacks at <hi>Weſtminſter</hi> (that move onely under the heavy
+threatning fingers of the Army) can require them: for, though the Houſe of
+Commons in a Parliament be the Repreſentation of the People, yet the People
+cannot inveſt their Repreſentatives with a power which was not in
+themſelves. Now the People have no power to doe an Act which directly or
+indirect<g ref="char:EOLhyphen"/>ly doth put it in the will and pleaſure of any One or Two of the
+Eſtates, to overthrow the Third. But it is now too evident unto your that the
+power of opening and ſhutting the Purſe of the Kingdom is ſuch a power,
+that if it be in One or Two of the Eſtates without the concurrence of the
+Third, then they, or that One, by that power may neceſſitate the other to
+comply to any Act, or to diſable it from its owne defence: by this er<g ref="char:EOLhyphen"/>rour we
+have lived to ſee the damnable and cruell But<g ref="char:EOLhyphen"/>chery of the KING, the
+Aboliſhing of the Houſe of Peeres; and thus is the Riddle reſolved,
+<hi>of King and Parliament, Parliament and Army, and Parliament and
+Kingdome.</hi>
+            </p>
+            <p>Laſtly, it is mixed in the united power of tranſacting the
+weighty Affaires of the Kingdome, which in the Writ of Summons are termed the
+<hi>Ardoa Regni:</hi> for, I conceive that there are two kinds of Affaires
+which can<g ref="char:EOLhyphen"/>not be diſpatched without the concurrence of the three Eſtates:
+Firſt, ſuch as concerne the publique ſafety and weale, ſo farre as a
+generall damage or advantage ex<g ref="char:EOLhyphen"/>tends to the whole body Politick by the well or
+ill ma<g ref="char:EOLhyphen"/>naging thereof; for, then there is the ſame reaſon as in making of
+new Lawes; for, why was not the power of <pb n="9" facs="tcp:165315:6"/>making new Lawes
+committed to the truſt of One, but reſerv'd for the unanimous agreement of
+all Three? but becauſe the intent of the Architects was, that no new thing
+which was of publique concernment, ſhould be introduced as Authoritative, and
+binding, without the conſent of the three Eſtates: therefore no
+tranſactions in this Kingdome can be equipollent to a Law, which are not
+enlivened, and informed with this threefold Au<g ref="char:EOLhyphen"/>thority. Secondly, ſuch as are
+accompanied with a ne<g ref="char:EOLhyphen"/>ceſſity of publique charge as in time of Warre, for
+then is the Purſe of the Kingdome required; but it is evident (as I proved
+before) that this muſt be done by the con<g ref="char:EOLhyphen"/>currence of all three, for
+otherwiſe it would be all one to put the power of our Eſtates in the hands
+of One, as to put the power of ſuch undertakings in His hands a<g ref="char:EOLhyphen"/>lone, which
+of neceſſity doe introduce an engagement of publique charge.</p>
+            <p>I ſhall now lay downe a few Suppoſals by way of
+re<g ref="char:EOLhyphen"/>capitulation, and you ſhall not need to go to <hi>John Good<g ref="char:EOLhyphen"/>win</hi> for a
+legall Catechiſme. Suppoſe then, firſt: that a People wearied to it by
+conqueſt, or led to it by free choice, both Nobles and Commons make a
+reſignation of themſelves by publique Oath and agreement to our Soveraigne,
+to be Governed by Him, and His Heires for ever, by ſuch and ſuch
+fundamentall Lawes: here we find a fountain-head of Supremacy, though ſtopped
+in the ſtreames of its exerciſe. Secondly, ſuppoſe that future
+contingent caſes will happen requiring additio<g ref="char:EOLhyphen"/>nall Lawes, and therefore they
+covenant with their So<g ref="char:EOLhyphen"/>veraigne, that in the conſtitution of poſtnate
+Lawes, they both Nobles and Commons will reſerve to them<g ref="char:EOLhyphen"/>ſelves a free
+concurrence, and will not be ſubject to any ſuch Lawes as ſhall be framed
+by any One or Two of <pb n="10" facs="tcp:165315:7"/>the Eſtates. Thirdly, ſuppoſe
+that although the Peers can aſſemble in their Perſonall capacities, yet
+the Com<g ref="char:EOLhyphen"/>mons through the greatneſſe of their number cannot, and therefore
+it was further articled and agreed upon, that every Corporation ſhould have
+power to delegate one, as their Repreſentative in this publique
+buſineſſe, where the Nobles by themſelves, and the Commons by their
+Subſtitutes aſſembling, the whole Body may con<g ref="char:EOLhyphen"/>vene for the
+eſtabliſhing of new, and expounding of old Lawes. Fourthly ſuppoſe,
+becauſe the occaſion of ma<g ref="char:EOLhyphen"/>king new, or interpreting old Lawes would not be
+con<g ref="char:EOLhyphen"/>ſtant and perpetuall; and that it would carry an appea<g ref="char:EOLhyphen"/>rance of a
+monſtrous Government where there were three Heads; they did eſtabliſh
+theſe three Eſtates to be viſibly exiſtent, according to future
+emergencies; and becauſe a Monarchy was deſigned and intended, and
+therefore a Supremacy of power muſt be reſerved for One; it was concluded
+that theſe two Eſtates ſhould be a Convention of His Subjects ſworne to
+Him, and all former Lawes, and the new which were to be enacted, ſhould be
+called <hi>His Lawes,</hi> and they bound by their Oath to obey Him in them as
+ſoone as they had receiv'd His Royall Aſſent. Fifthly ſuppoſe,
+becauſe He was bound by His Oath to Governe by His Lawes, that He by His
+Councell ſhould beſt know when there was need of making new Lawes,
+therefore the power of Aſſem<g ref="char:EOLhyphen"/>bling and Diſſolving theſe Eſtates was
+ſolely commit<g ref="char:EOLhyphen"/>ted to His hands. Here is the model of this bleſſed
+Go<g ref="char:EOLhyphen"/>vernment, and now you may perceive you want not Lawes, but your
+<hi>KING</hi> to protect you by His Lawes. And what quinteſſence of
+deluſion, what efficacy of er<g ref="char:EOLhyphen"/>rour hath bewitched you, to betray and
+ſcandalize the ſuccours of your reaſon; to forſake a certain, and duely
+<pb n="11" facs="tcp:165315:7"/>attemper'd Liberty, and to receive a Bondage with re<g ref="char:EOLhyphen"/>joycing
+from the Sword point of a Rebell, as from a Benefactour! an Out-law of Heaven,
+whoſe conſcience the X. Commandements are no ſtronger to tie, than are
+ten Sun-beames to manacle the Murtherers hands. I have ſeen the Crocodile
+weep, ſtraine a face like an old Woman at it with a hard ſtoole, and
+counterfeit the Publicans march upon his breaſt, with <hi>Lord be mercifull
+to me a Sinner!</hi> but alas! this is but the brocage of ambition, theſe are
+but feigned, and affected ſemblances to beguile the world, no true qualities
+ingenerated in his nature; for, you may ſooner find a Hog to be a High
+Prieſt among the Jewes, or a Horſe in a Swans neſt, than true devotion in
+an ambitious breaſt; the reaſon is ob<g ref="char:EOLhyphen"/>vious why theſe Men ſhould
+introduce a Change, be<g ref="char:EOLhyphen"/>cauſe every branch of the Law doth upbraid their
+guilt; but for you to abett this Change is as unreaſonable, as for him that
+knoweth a neer, plaine, and ſecure way to his houſe, yet wil ſtay till
+midnight, and ramble through woods and foreſts which ſwarme with Thieves
+&amp; Rob<g ref="char:EOLhyphen"/>bers. We read in <hi>Samuel,</hi> that when <hi>Saul</hi> was to be
+A<g ref="char:EOLhyphen"/>nointed King, the Holy Ghoſt ſaith, <hi>among the Children of Iſrael
+there was not a godlier Perſon than he;</hi> this, though it failed in the
+example of <hi>Saul,</hi> will thus farre juſtifie Phiſyognomie, that
+<hi>formoſa facies, bone indolis est muta commendatio:</hi> And truely you
+cannot be ſo much enamour'd of <hi>Oliver</hi>'s features, as to think your
+ſelves ſecure in his virtues; for, by the ſigne that nature hath hung
+out, conjecture may be eaſily made of na<g ref="char:EOLhyphen"/>tures deſignment for that head: It
+is obſervable alſo when <hi>Saul</hi> was to be Anointed he was ſeeking
+of Aſſes, and the Prophet brought him tidings of them: now it is an even
+wager <hi>Oliver</hi> is upon the ſame employment, <pb n="12" facs="tcp:165315:8"/>and if
+<hi>John Goodwin</hi> his Seer can but bring tidings of theſe Aſſes,
+<hi>Cromwell</hi> alſo may be Anointed; a little <hi>unguentum album,</hi>
+from the Apothecaries, is excellent for S. <hi>Anthonies</hi> fire in the
+Noſe, <hi>probatum est:</hi> but if this Seer chance to meet with ſome of
+<hi>Balaam</hi>'s breed, that turne aſide from the Sword of his ſtrange
+Spirit (as many ſuch there are) then it may be feared <hi>Oliver</hi> with
+all his vamping Hypocriſie will never be able to clap a new ſole of
+Government upon this Kingdome: <hi>The numbring of the People</hi> coſt King
+<hi>David</hi> threeſcore and ten thouſand of his Subjects lives, (his end
+was <hi>Pride</hi>) but if you would ſpie day at a little hole and number the
+loyall hearts, it may ſave the lives of ſo many Engliſh<g ref="char:EOLhyphen"/>men (for the
+preſervation of your Country is your aime) if when People <hi>ſpeak
+evill</hi> of the <hi>KING,</hi> the Birds of the ayre tell tales of it;
+doubtleſſe the Angels of heaven would conveigh ſuch a Catalogue of duty,
+if you want not hearts to ſend it to your <hi>KING:</hi> Here is no place to
+propound the meanes to effect it; for, He that ſhew<g ref="char:EOLhyphen"/>eth his treaſure among
+Thieves, is guilty of his owne pillage.</p>
+            <div type="poem">
+               <head>OLIVERUS CROMWELL Anagr. <hi>Velo lucri move rus.</hi>
+               </head>
+               <lg>
+                  <l>HIs ominous nature here decypher'd ſtands,</l>
+                  <l>Obeying Satans wiles in his commands.</l>
+                  <l>The Peoples Liberty he makes his traine,</l>
+                  <l>But ſeeks through blood a Kingdome to obtaine:</l>
+                  <l>Trace him, but truſt him not; his Soule is true</l>
+                  <l>To profit, and ambition; falſe to you.</l>
+                  <l>For power that may controule, when it deſcends,</l>
+                  <l>Their bondage whom it fawns on, it intends.</l>
+               </lg>
+               <lg>
+                  <l>But when this Spider, and the web he ſpins</l>
+                  <l>You have deſtroy'd, your Liberty begins.</l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
